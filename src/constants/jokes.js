@@ -1,0 +1,17 @@
+export const jokes = [
+  {id: 12, setup: "Why aren’t dogs good dancers?", punchline: "They have two left feet", isFunny: undefined},
+  {id: 567, setup: "What game would you play with a wombat?", punchline: "Wom", isFunny: undefined},
+  {id: 90, setup: "What kind of overalls does Mario wear?", punchline: "Denim-denim-denim", isFunny: undefined},
+  {id: 43, setup: "How do you fix a broken tuba?", punchline: "With a tuba glue", isFunny: undefined},
+  {id: 29, setup: "Why do seagulls fly over the sea?", punchline: "Because if they flew over the bay, they’ve bagels", isFunny: undefined},
+  {id: 19, setup: "What streets do ghosts haunt?", punchline: "Dead ends", isFunny: undefined},
+  {id: 17, setup: "What kind of dogs love car racing?", punchline: "Lap dogs", isFunny: undefined},
+  {id: 56, setup: "What do you call birds who stick together?", punchline: "Vel-crows", isFunny: undefined},
+  {id: 0, setup: "What’s the best thing about Switzerland?", punchline: "I don’t know, but its flag is a big plus", isFunny: undefined},
+  {id: 5, setup: "What did the janitor say when he jumped out of the closet?", punchline: "Supplies!", isFunny: undefined},
+  {id: 44, setup: "Why is it embarassing to make a 'dad joke' if you're not a dad?", punchline: "It's a faux pa", isFunny: undefined},
+  {id: 2, setup: "Why was everyone talking about a corduroy pillow?", punchline: "It made headlines", isFunny: undefined},
+  {id: 620, setup: "Why couldn’t the bicycle stand up?", punchline: "Because it was too tired", isFunny: undefined},
+  {id: 78, setup: "Why don’t lobsters share?", punchline: "Because they're shellfish", isFunny: undefined},
+  {id: -1, setup: "Which dinosaur crashed her car?", punchline: "Tyrannosaurus wrecks", isFunny: undefined},
+]

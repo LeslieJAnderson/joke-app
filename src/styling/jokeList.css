@@ -1,0 +1,34 @@
+/* joke-list */
+
+.joke-list {
+  height: 30%;
+  overflow-y: auto;
+  text-align: left;
+  width: 100%;
+  background-color: #393457;
+
+  border-top: 5px solid #ffffff;
+}
+
+.jl-holder {
+  padding: 10px 20px;
+}
+
+.jl-rating {
+  display: flex;
+  align-items: center;
+}
+
+.jl-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.jl-current-joke {
+  background-color: #f7e476;
+  color: #393457;
+}

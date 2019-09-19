@@ -1,0 +1,64 @@
+/* joke-app */
+
+.joke-app {
+  text-align: center;
+  background-color: #393457;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.ja-joke-counter {
+  position: fixed;
+  top: 20px;
+}
+
+.ja-holder {
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+
+.ja-button {
+  padding: 10px;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border: none;
+}
+
+.ja-next {
+  background-color: #5bb361;
+}
+
+.ja-next:hover {
+  background-color: #a1e55a;
+  cursor: pointer;
+  color: #393457;
+}
+
+.ja-previous {
+  background-color: #cb4d68;
+}
+
+.ja-previous:hover {
+  background-color: #f99252;
+  cursor: pointer;
+  color: #393457;
+}
+
+.ja-body-holder {
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

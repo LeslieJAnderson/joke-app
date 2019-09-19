@@ -1,0 +1,83 @@
+/* joke-card */
+
+.joke-card {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.jc-joke-setup {
+  padding: 10px;
+}
+
+.jc-punchline {
+  margin: 10px;
+}
+
+.jc-punchline-reveal-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jc-punchline-reveal {
+  background-color: #11adc1;
+  padding: 10px 100px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border: none;
+}
+
+.jc-punchline-reveal:hover {
+  background-color: #6df7c1;
+  cursor: pointer;
+  color: #393457;
+}
+
+.jc-rate-button-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.jc-rate-button {
+  background-color: #f48cb6;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jc-rate-button:hover {
+  color: transparent;
+  cursor: pointer;
+}
+
+.jc-rated {
+  background-position: center;
+  background-size: cover;
+  color: transparent;
+  cursor: pointer;
+}
+
+.jc-rated-up {
+  background-image: url('https://www.minnpost.com/wp-content/uploads/2019/06/SmilingCat640.jpg');
+}
+
+.jc-rated-down {
+  background-image: url('https://www.catster.com/wp-content/uploads/2018/04/Angry-cat-sound-and-body-language.jpg');
+}
+
+.jc-up-button:hover {
+  background-image: url('https://www.minnpost.com/wp-content/uploads/2019/06/SmilingCat640.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.jc-down-button:hover {
+  background-image: url('https://www.catster.com/wp-content/uploads/2018/04/Angry-cat-sound-and-body-language.jpg');
+  background-position: center;
+  background-size: cover;
+}
